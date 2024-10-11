@@ -1,0 +1,548 @@
+                                            /* Home */
+@import url('https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    margin:0px;
+    background-color: #2E2E2E;
+    text-decoration:none;
+    font-family: "Lekton";
+ }
+ 
+ header{
+    width:100%;
+    text-align: center;
+    font-family: "Lekton";
+ }
+
+ header h1 {
+   padding-top: 1%;
+   font-weight: normal;
+ }
+
+ a {
+   text-decoration:none;
+   color: #ffffff;
+ }
+ 
+ .banner {
+    background-color:#151515;
+    color:rgb(255, 255, 255);
+    border-top: 3px solid #4AF5D9;
+    border-bottom: 3px solid #4AF5D9;
+    text-shadow:0px 0px 15px  #ffffff;
+ 
+    height: 180px;
+ 
+    font-size:4vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ 
+ .navigation {
+    background-color:#151515;
+    border-bottom: 3px solid #F56F49;
+ 
+    height: 30px;
+ 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:20px;
+ }
+ 
+ .navigation ul {
+    list-style-type:none;
+    align-items: center;
+ 
+    margin:0px;
+    padding:0px;
+    display:flex;
+ }
+ 
+ 
+.navigation a {
+    display:block;
+   
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+ 
+    height:100%;
+    line-height:30px;
+    padding:0px 20px;
+    transition: font-size 0.5s ease;
+ }
+ 
+ .navigation a:hover {
+    background-color:#4AF5D9;
+    color:#151515;
+    font-size:20px
+ }
+
+ .background {
+    background-color: #151515;
+    margin: 0px 40px;
+    color:#151515;
+    padding: 10px,10px;
+    border-left: 3px solid #C6836F;
+    border-right: 3px solid #C6836F;
+    box-shadow: 0px 15px 35px #000000;
+ }
+
+ .buttons ul {
+   list-style-type:none;
+   text-align: center;
+   padding-top: 20px;
+   margin-right:40px;
+   margin-top: 0px;
+   font-size:45px;
+   line-height: 110px;
+ }
+
+ .buttons ul li {
+   margin: 20px 0px;
+ }
+
+.button {
+   display: flex;
+   color:#ffffff;
+}
+.button p {
+   margin: 0px;
+   font-size:25px;
+   line-height: 30px;
+}
+
+
+ .python {
+   flex:70%;
+   border: 3px solid #4AF5D9;
+ }
+
+ .figma {
+   flex:70%;
+   border: 3px solid #C6836F;
+ }
+
+ .html {
+   flex:70%;
+   border: 3px solid #F56F49;
+ } 
+
+ .spacer {
+   flex: 30%;
+   width: 20px;
+ }
+
+ hr {
+   color:#4AF5D9;
+ }
+
+ .profile {
+   margin: 30px;
+ }
+
+ .intro {
+   margin-top:120px;
+ }
+
+                                            /* Python Process */
+ .py_banner {
+    background-color:#151515;
+    color:rgb(255, 255, 255);
+    border-top: 3px solid #4AF5D9;
+    border-bottom: 3px solid #4AF5D9;
+    text-shadow:0px 0px 15px  #4AF5D9;
+ 
+    height: 180px;
+ 
+    font-size:4vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .py1_navigation {
+    background-color:#151515;
+    border-bottom: 3px solid #4AF5D9;
+ 
+    height: 30px;
+ 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:20px;
+ }
+ 
+ .py1_navigation ul {
+    list-style-type:none;
+    align-items: center;
+ 
+    margin:0px;
+    padding:0px;
+    display:flex;
+ }
+ 
+ 
+.py1_navigation a {
+    display:block;
+   
+    color:rgb(255, 255, 255);
+ 
+    height:100%;
+    line-height:30px;
+    padding:0px 20px;
+    transition: font-size 0.5s ease;
+ }
+ 
+ .py1_navigation a:hover {
+    background-color:#4AF5D9;
+    color:#151515;
+    font-size:20px
+ }
+
+ p {
+   margin: 0px,0px, 0px, 0px;
+ }
+
+ .text {
+   width:70%;
+   height: 100%;
+   justify-content: center;
+   margin-left: 2%;
+ }
+
+ .contact_details {
+   width:70%;
+   height: 100%;
+   justify-content: center;
+   margin: 15%;
+   border: 3px solid #4AF5D9;
+   color:#ffffff;
+ }
+
+ .text p {
+   font-size: 1.6vw;
+ }
+
+ .text h1 {
+   font-weight: normal;
+ }
+
+ .python_images {
+   border: 3px solid #4AF5D9;
+   background-size:cover;
+   margin-left: 40px;
+   margin: 20px;
+ }
+
+ .triangle_images {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .content {
+   width: 90%;
+   margin: 30px;
+   justify-content: center;
+   display: flex;
+   padding-left: 2%;
+   font-size:larger;
+   color:#ffffff;
+   margin-top: 0px;
+ }
+
+                                            /* Python Result */
+
+ .py2_navigation {
+    background-color:#151515;
+    border-bottom: 3px solid #4AF5D9;
+ 
+    height: 30px;
+ 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:20px;
+ }
+ 
+ .py2_navigation ul {
+    list-style-type:none;
+    align-items: center;
+ 
+    margin:0px;
+    padding:0px;
+    display:flex;
+ }
+ 
+ 
+.py2_navigation a {
+    display:block;
+   
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+ 
+    height:100%;
+    line-height:30px;
+    padding:0px 20px;
+    transition: font-size 0.5s ease;
+ }
+ 
+ .py2_navigation a:hover {
+    background-color:#4AF5D9;
+    color:#151515;
+    font-size:20px
+ }
+
+ .py_background {
+   background-color: #151515;
+   margin: 0px 40px;
+   color:#151515;
+   padding: 10px,10px;
+   border-left: 3px solid #4AF5D9;
+   border-right: 3px solid #4AF5D9;
+   color:#ffffff;
+   display:flex;
+   flex-direction:column;
+   box-shadow: 0px 15px 35px #000000;
+}
+
+ 
+                                            /* Figma Process */
+
+ .fi_banner {
+    background-color:#151515;
+    color:rgb(255, 255, 255);
+    border-top: 3px solid #C6836F;
+    border-bottom: 3px solid #C6836F;
+    text-shadow:0px 0px 15px #C6836F;
+ 
+    height: 180px;
+ 
+    font-size:4vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ 
+ .fi1_navigation {
+    background-color:#151515;
+    border-bottom: 3px solid #C6836F;
+ 
+    height: 30px;
+ 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:20px;
+ }
+ 
+ .fi1_navigation ul {
+    list-style-type:none;
+    align-items: center;
+ 
+    margin:0px;
+    padding:0px;
+    display:flex;
+ }
+ 
+ 
+.fi1_navigation a {
+    display:block;
+   
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+ 
+    height:100%;
+    line-height:30px;
+    padding:0px 20px;
+    transition: font-size 0.5s ease;
+ }
+ 
+ .fi1_navigation a:hover {
+    background-color:#C6836F;
+    color:#151515;
+    font-size:20px
+ }
+
+ .figma_images {
+   border: 3px solid #C6836F;
+   background-size:cover;
+   margin-left: 40px;
+   margin: 20px;
+ }
+
+                                             /* Figma Result */
+
+ .fi2_navigation {
+    background-color:#151515;
+    border-bottom: 3px solid #C6836F;
+ 
+    height: 30px;
+ 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:20px;
+ }
+ 
+ .fi2_navigation ul {
+    list-style-type:none;
+    align-items: center;
+ 
+    margin:0px;
+    padding:0px;
+    display:flex;
+ }
+ 
+ 
+.fi2_navigation a {
+    display:block;
+   
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+ 
+    height:100%;
+    line-height:30px;
+    padding:0px 20px;
+    transition: font-size 0.5s ease;
+ }
+ 
+ .fi2_navigation a:hover {
+    background-color:#C6836F;
+    color:#151515;
+    font-size:20px
+ }
+
+ .fi_background {
+   background-color: #151515;
+   margin: 0px 40px;
+   color:#151515;
+   padding: 10px,10px;
+   border-left: 3px solid #C6836F;
+   border-right: 3px solid #C6836F;
+   box-shadow: 0px 15px 35px #000000;
+}
+
+
+                                            /* HTML Process */
+
+ .ht_banner {
+    background-color:#151515;
+    color:rgb(255, 255, 255);
+    border-top: 3px solid #F56F49;
+    border-bottom: 3px solid #F56F49;
+    text-shadow:0px 0px 15px #F56F49;
+ 
+    height: 180px;
+ 
+    font-size:4vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .ht1_navigation {
+    background-color:#151515;
+    border-bottom: 3px solid #F56F49;
+ 
+    height: 30px;
+ 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:20px;
+ }
+ 
+ .ht1_navigation ul {
+    list-style-type:none;
+    align-items: center;
+ 
+    margin:0px;
+    padding:0px;
+    display:flex;
+ }
+ 
+ 
+.ht1_navigation a {
+    display:block;
+   
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+ 
+    height:100%;
+    line-height:30px;
+    padding:0px 20px;
+    transition: font-size 0.5s ease;
+ }
+ 
+ .ht1_navigation a:hover {
+    background-color:#F56F49;
+    color:#151515;
+    font-size:20px
+ }
+
+ .html_images {
+   border: 3px solid #F56F49;
+   background-size:cover;
+   margin-left: 40px;
+   margin: 20px;
+ }
+
+
+
+                                             /* HTML Result */
+
+ .ht2_navigation {
+    background-color:#151515;
+    border-bottom: 3px solid #F56F49;
+ 
+    height: 30px;
+ 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:20px;
+ }
+ 
+ .ht2_navigation ul {
+    list-style-type:none;
+    align-items: center;
+ 
+    margin:0px;
+    padding:0px;
+    display:flex;
+ }
+ 
+ 
+.ht2_navigation a {
+    display:block;
+   
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+ 
+    height:100%;
+    line-height:30px;
+    padding:0px 20px;
+    transition: font-size 0.5s ease;
+ }
+ 
+ .ht2_navigation a:hover {
+    background-color:#F56F49;
+    color:#151515;
+    font-size:20px
+ }
+
+ .ht_background {
+   background-color: #151515;
+   margin: 0px 40px;
+   color:#151515;
+   padding: 10px,10px;
+   border-left: 3px solid #F56F49;
+   border-right: 3px solid #F56F49;
+   box-shadow: 0px 15px 35px #000000;
+}
+ 
+ 
